@@ -824,6 +824,5 @@ func renderCountdownBar(timeRemaining, totalTime int, width int, adjust int, fla
 ```  
 
 These variables and this function render the time bar. The bar is filled based on the percentage of time remaining,
-and recalculate the size based on the user's performance in the quiz. This also controls the flash of color displayed after an
+and recalculate the size based on the user's performance in the quiz. This also controls the flash of color displayed after an answer is submitted.
 
-answer is submitted.
