@@ -695,7 +695,8 @@ and returns a type Question struct. All questions have a check to ensure integer
 * 1st Grade - addition and subtraction, with a check to prevent negative answers. Numbers 1-9
 * 3rd Grade - addition, subtraction, and simple multiplication, with a check to make sure that multiplication is only single digit by single digit. Add/Sub numbers -20 - 20, Mult 1-9
 * 5th Grade - addition, subtraction, multiplication, and division. Add/Sub numbers -100 - 100, Mult/Div numbers 1-15
-* Algebra - 6 states:
+* Algebra - 7 states:
+  * x + n = m
   * x - n = m
   * n + x = m 
   * n - x = m
@@ -824,4 +825,5 @@ func renderCountdownBar(timeRemaining, totalTime int, width int, adjust int, fla
 
 These variables and this function render the time bar. The bar is filled based on the percentage of time remaining,
 and recalculate the size based on the user's performance in the quiz. This also controls the flash of color displayed after an
+
 answer is submitted.
